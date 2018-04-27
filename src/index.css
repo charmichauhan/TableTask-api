@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.pagination {
+  display: inline-block
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px; 
+  border: 1px solid #ddd; /* Gray */
+}
+
+.pagination a:hover:not(.active) {
+  background-color: rgb(25, 76, 214);
+  border-radius: 5px;
+}
+
+.disabled {
+  cursor: not-allowed;
+  /* color: darkgray */
+}
+
+.error {
+  border: 1px solid red;
+  border-radius: 4px
+}
+
+.search { position: relative; }
+.search FormControl { text-indent: 30px;}
+.search .fa-caret-down { 
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  font-size: 15px;
+}
